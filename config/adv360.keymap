@@ -50,9 +50,9 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL      &kp N1      &kp N2       &kp N3       &kp N4  &kp N5               &tog 0                                                                  &mo 3     &kp N6       &kp KP_NUM  &kp KP_EQUAL          &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp MINUS
+ &kp EQUAL      &kp N1      &kp N2       &kp N3       &kp N4  &kp N5               &tog 1                                                                  &mo 3     &kp N6       &kp KP_NUM  &kp KP_EQUAL          &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp MINUS
    &kp TAB       &kp Q       &kp W        &kp E        &kp R   &kp T                &none                                                                  &none  &kp COMMA         &kp LPAR      &kp RPAR       &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp BSLH
-   &kp ESC       &kp A       &kp S        &kp D        &kp F   &kp G                &none  &kp GRAVE      &tog 0                     &tog 0  &kp GRAVE     &none  &kp MINUS        &kp UNDER     &kp EQUAL         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SQT
+   &kp ESC       &kp A       &kp S        &kp D        &kp F   &kp G                &none  &kp GRAVE      &tog 1                     &tog 1  &kp GRAVE     &none  &kp MINUS        &kp UNDER     &kp EQUAL         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SQT
  &kp LSHFT  &mt LALT Z  &mt LGUI X  &mt LCTRL C  &mt LSHFT V   &kp B                                    &kp CAPS                  &kp EQUAL                         &kp DOT  &mt RSHFT KP_N1  &mt RCTRL LT  &mt RGUI GREATER_THAN     &mt RALT QMARK  &kp RSHFT
      &mo 2   &kp EQUAL  &caps_word     &kp LEFT    &kp RIGHT                    &kp SPACE    &kp DEL  &caps_word                  &kp MINUS  &kp ENTER  &kp BSPC                      &kp UP      &kp DOWN             &kp KP_DOT           &kp RBKT      &mo 2
             >;
